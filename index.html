@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/56de2428cb.js" crossorigin="anonymous"></script>
+    <style>
+    p {
+        margin-bottom: 1em; /* Adjust the value as needed */
+    }
+    
+
+</style>
+</head>
+<body>
+
+
+ 
+ <!-- <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  <div class="circle"></div>
+  
+  <script src="./main.js"></script>  --->
+
+
+    <div id="header">
+        <div class="container">
+            
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p class="greeting">Hey there, I'm</p>
+                <h1 class="typing-text"><span>Shabnam Islam</span></h1>
+                <p class="description"><span class="typing-description"></span></p>
+            </div>
+        </div>
+    </div>
+    <!------------about--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, my name is Shabnam Islam, a recent <span class="highlight">Computer Science and Engineering graduate</span> from the University of Engineering and Management, Kolkata (Batch of 2023). My journey has led me to the captivating realm of <span class="highlight">full stack development</span>, with a strong affinity for JavaScript. I focus primarily on backend technologies, specializing in Node.js and Express.js.</p>
+
+                    <p>Apart from academics, I explore new domains and emerging tech. I enjoy tackling <span class="highlight">LeetCode problems <a href="https://leetcode.com/shabnamkhushi2001/"><i class="fas fa-external-link-alt"></i></a></span> and participating in programming contests to keep my problem-solving skills sharp. My goal is to leverage my knowledge to craft innovative digital solutions and contribute to the evolving tech landscape.</p>
+
+
+                       <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skill')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experiences</p>
+                       </div>
+                       <div class="tab-contents active-tab" id="skill">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>UI/UX</span><br>Designing Web interfaces</li>
+                            <li><span>Data Structures and Algorithms</span><br>Core Java<br>Problem Solving <a href="https://leetcode.com/shabnamkhushi2001/"><i class="fas fa-external-link-alt"></i></a></li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Btech from UEM Kolkata.</li>
+                            <li><span>2019</span><br>HSS from DPS Singrauli.</li>
+                        </ul>
+                       </div>
+                       <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Feb 2023 - Apr 2023</span><br>Intern at LTIMindtree</li>
+                            <li><span>Aug 2021 - Oct 2021</span><br>Web Development Intern at Tecklearn</li>
+                        </ul>
+                       </div>
+                       <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------------Skills----------- -->
+    <div id="skills">
+        <div class="container">
+            <h1 class="sub-title">Skills</h1>
+            <div class="skills-container">
+                <div class="skill">
+                   <!--- <img src="images/java-icon.png.png" alt="Java Icon">-->
+                   <i class="fa-brands fa-java"></i>
+                    <p>Java</p>
+                </div>
+                <div class="skill">
+                     <img src="images/cpp-icon.png.png" alt="C++ Icon"> 
+
+                    <p>C++</p>
+                </div>
+                <div class="skill">
+                    <!--<img src="images/python-icon.png.png" alt="Python Icon">-->
+                    <i class="fa-brands fa-python"></i>
+                    <p>Python</p>
+                </div>
+                <div class="skill">
+                    <!--<img src="images/html-icon.png.png" alt="HTML Icon"> -->
+                    <i class="fa-brands fa-html5"></i>
+                    <p>HTML5</p>
+                </div>
+                <div class="skill">
+                   <!-- <img src="images/css-icon.png.png" alt="CSS Icon"> -->
+                   <i class="fa-brands fa-css3-alt"></i>
+                    <p>CSS3</p>
+                </div>
+                <div class="skill">
+                   <!-- <img src="images/javascript-icon.png.png" alt="JavaScript Icon"> -->
+                   <i class="fa-brands fa-square-js"></i>
+                    <p>JavaScript</p>
+                </div>
+                <div class="skill">
+                    <!-- <img src="images/nodejs-icon.png.png" alt="Node.js Icon"> -->
+                    <i class="fa-brands fa-node"></i>
+                    <p>Node.js</p>
+                </div>
+                <div class="skill">
+                    <!-- <img src="images/sql-icon.png.png" alt="SQL Icon"> -->
+                    <i class="fa-solid fa-database"></i>
+                    <p>SQL</p>
+                </div>
+                
+                <div class="skill">
+                 <img src="images/mysql-icon.png.png" alt="MySQL Icon"> 
+
+                    <p>MySQL</p>
+                </div>
+                <div class="skill">
+                    <!-- <img src="images/linux-icon.png.png" alt="Linux Icon"> -->
+                    <i class="fa-brands fa-linux"></i>
+                    <p>Linux</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------Projects--------------------->
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <!--<img src="images/work-1.png">-->
+                    <div class="layer">
+                        <h3>Chat API</h3>
+                        <p>This application allows users to exchange messages through different channels,
+                           using node js, express and Frontend part is made by using HTML, CSS and JS.</p>
+                        <a href="https://github.com/shaboo42/ChatAPI" >Learn more</a>
+                    </div>
+                </div>
+                <div class="work">
+                   <!---- <img src="images/work-2.png">-->
+                    <div class="layer">
+                        <h3>Desktop Assistant</h3>
+                        <p>It is a virtual desktop assistant made with python named Olivia. It performs tasks instructed to it like playing music and opening 
+                            certain sites.</p>
+                        <a href="https://github.com/shaboo42/DesktopAssistant">Learn more</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <!--<img src="images/work-3.png">-->
+                    <div class="layer">
+                        <h3>Discord Bot</h3>
+                        <p>A music application made using python, it includes features like clearing messages, kick 
+                            or ban members and play, stop, pause and resume YouTube music.</p>
+                        <a href="https://github.com/shaboo42/DiscordBot">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <a href="https://github.com/shaboo42?tab=repositories" class="btn">See more</a>
+        </div>
+    </div>
+    <!---------------------contact----------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i> shabnamkhushi2001@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>+91 7879595165</p>
+                    <p>Feel free to <span class="highlight">connect</span> with me</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/shabnamislam/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/shaboo42"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/i._shab/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/khushi.islam.9235?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        
+                    </div>
+                    <!---- <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a> --->
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+                
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 2023 Shabnam Islam.</p>
+        </div>
+    </div>
+
+
+
+   
+    <script>
+
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link")
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-130px";
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxHtJVbd2AywiO9BZDTvgRCku0VIKL5nzAmIAm4SeaVYO1Sm9GgN7cIyO7DIyF6vHOE/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML="Message sent successfully"
+                setTimeout(function(){
+                    msg.innerHTML = ""
+                },3000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+
+
+
+    
+<script>
+    // Add typing effect to different phrases
+    const phrases = [
+        "Full Stack Developer",
+        "Software Developer",
+        "Open Source Contributor"
+    ];
+
+    const typingDescription = document.querySelector('.typing-description');
+    let phraseIndex = 0;
+    let currentIndex = 0;
+
+    function typeNextChar() {
+        const currentPhrase = phrases[phraseIndex];
+        if (currentIndex < currentPhrase.length) {
+            typingDescription.textContent += currentPhrase[currentIndex];
+            currentIndex++;
+            setTimeout(typeNextChar, 100); // Adjust typing speed as needed
+        } else {
+            setTimeout(clearText, 1500); // Delay before clearing and starting again
+        }
+    }
+
+    function clearText() {
+        if (currentIndex > 0) {
+            typingDescription.textContent = typingDescription.textContent.slice(0, -1);
+            currentIndex--;
+            setTimeout(clearText, 50); // Clear text character by character
+        } else {
+            phraseIndex = (phraseIndex + 1) % phrases.length;
+            setTimeout(typeNextChar, 2); // Delay before starting typing again
+        }
+    }
+
+    typeNextChar();
+</script>
+
+
+
+
+
+</body>
+</html>
