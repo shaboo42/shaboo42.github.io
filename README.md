@@ -25,14 +25,14 @@ Welcome to the repository of my simple personal website! This project showcases 
 
 If you find this simple project helpful, consider giving it a ⭐ to show your support!
 
-## Buy Me A Coffee
+<!--## Buy Me A Coffee
 
 If you find this project helpful or just want to support me, consider buying me a coffee!
 
-<br> <!-- Add a line break here -->
-<a href="https://www.buymeacoffee.com/YourUsername" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50"></a>
+<br> <!-- Add a line break here 
+<a href="https://www.buymeacoffee.com/YourUsername" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" height="50"></a> -->
 
-Thank you for checking out my portfolio!
+Thank you for checking out my portfolio! 
 
 ## License
 
